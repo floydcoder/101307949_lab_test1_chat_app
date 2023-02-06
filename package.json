@@ -2,10 +2,10 @@
   "name": "101307949_lab_test1_chat_app",
   "version": "1.0.0",
   "description": "A chat app using socket IO",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon ./server/server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
