@@ -5,10 +5,11 @@ Required Dependencies for the project:
 - Nodemon (as a dev dependency)
 
 DONE
-IN PROGRESS
 1) Create a SignUp page called signup.html (Raw for now, styling at the end)
 2) Create a logIn page called login.html (Raw for now, styling at the end)
 3) Create User schema
+
+IN PROGRESS
 4) Authenticate user
 5) Create a GroupMessage schema
 6) Create a PrivateMessage schema
