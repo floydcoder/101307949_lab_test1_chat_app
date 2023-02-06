@@ -4,4 +4,21 @@ Required Dependencies for the project:
 - socketIO (Web Socket)
 - Nodemon (as a dev dependency)
 
-pw: 12SGbR6Q8iVMHUWb
+DONE
+IN PROGRESS
+1) Create a SignUp page called signup.html (Raw for now, styling at the end)
+2) Create a logIn page called login.html (Raw for now, styling at the end)
+3) Create User schema
+4) Authenticate user
+5) Create a GroupMessage schema
+6) Create a PrivateMessage schema
+7) Create a Chat page called chat.html (Raw for now, styling at the end)
+8) Create the chat web socket using Socket.io 
+9) Store all Group/Private messages in MongoDB
+
+Assumptions 
+- I am not including first name and last name for the user, as it is not important
+for identification throughout the app
+
+Issues
+- How do I use a mongoose schema with vanilla JS?
