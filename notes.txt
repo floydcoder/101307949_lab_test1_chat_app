@@ -1,0 +1,7 @@
+Required Dependencies for the project:
+- express (for server side Node.js)
+- mongoose (fro mongoDb database)
+- socketIO (Web Socket)
+- Nodemon (as a dev dependency)
+
+pw: 12SGbR6Q8iVMHUWb
