@@ -9,17 +9,18 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <title>signup</title>
+    <title>login</title>
     <meta name="description" content="signup" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <form class="w-50 p-3">
+    <form class="w-50 p-3" method="post" action="/login-user">
       <div class="form-group">
-        <label for="exampleInputEmail1">Username</label>
+        <label for="username">Username</label>
         <input
-          type="email"
+          type="text"
+          name="username"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
@@ -29,28 +30,17 @@
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
         <input
+          name="password"
           type="password"
           class="form-control"
           id="exampleInputPassword1"
           placeholder="Password"
         />
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword2">Confirm Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword2"
-          placeholder="Confirm Password"
-        />
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button
-      ><span
-        ><a onclick="redirectToLogin()" class="btn btn-info ml-3">
-          Already registered?
-        </a></span
-      >
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <span>
+        <a href="/signup" class="btn btn-info ml-3"> Not a member? </a>
+      </span>
     </form>
-    <script src="./js/index.js"></script>
   </body>
 </html>
