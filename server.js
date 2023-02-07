@@ -116,7 +116,7 @@ app.post('/create-user', (req, res) => {
 app.post('/login-user', (req, res) => {
   // get sign up data form
   const { username, password } = req.body;
-  console.log(username);
+  console.log(username, password);
   // TODO: validate credentials against db
   // if ivalid, send back a resposne for invaliditiy
 
